@@ -71,3 +71,25 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* responsive version < 420px  */
+/* BLOCCO LEZIONI */
+@media all and (max-width: 420px) {
+
+  .row {
+    width: 300px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #lezioni .row>.right {
+    margin-top: 20px;
+  }
+
+}
