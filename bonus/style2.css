@@ -78,7 +78,7 @@ img {
 @media all and (max-width: 419px) {
   
   .row {
-    width: 300px;
+    width: 100%;
     margin-top: 50px;
   }
   
@@ -133,8 +133,7 @@ img {
 }
 
 /* tablet version  */
-@media all and (min-width:768px) {
-
+@media all and (min-width: 421px) and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -142,7 +141,7 @@ img {
   }
 
   .row {
-    width: 750px;
+    width: 100%;
     margin-top: 0;
   }
 
@@ -160,15 +159,9 @@ img {
   #lezioni .row>.right {
     width: 100%;
     float: none;
-  }
-  
-  #lezioni .row>.left, 
-  #lezioni .row>.right {
     margin-top: 25px;
   }
-
-
-
+  
   /* BLOCCO STEPS */
   .container.grey.khaki {
     background-color:khaki;
