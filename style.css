@@ -75,11 +75,11 @@ img {
 
 
 /* responsive version < 420px  */
-
-@media all and (max-width: 420px) {
+@media all and (max-width: 419px) {
 
   .row {
     width: 300px;
+    margin-top: 50px;
   }
 
   /* BLOCCO LEZIONI */
@@ -109,6 +109,25 @@ img {
   #why .row>.second,
   #why .row>.third {
     margin-top: 40px;
+  }
+
+  #why .row img {
+    padding: 15px;
+  }
+
+
+  /* COMMON */  
+  h1 {
+    font-size: 34px;
+    padding-top: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  img {
+    height: 150px;
   }
 
 }
