@@ -78,7 +78,7 @@ img {
 @media all and (max-width: 419px) {
 
   .row {
-    width: 300px;
+    width: 100%;
     margin-top: 50px;
   }
 
@@ -132,24 +132,3 @@ img {
 
 }
 
-
-
-/* tablet version  */
-@media all and (min-width: 768px) and (max-width:1024px) {
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .row {
-    width: 500px;
-    margin-top: 80px;
-    padding: 10px;
-  }
-
-
-
-
-}
